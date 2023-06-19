@@ -189,11 +189,11 @@ aside {
 .icon-list {
     height: 100%;
     border-left: 1px solid var(--clr-primary-300);
-    padding: 0;
+    padding: 4rem 0 0;
     margin: 0;
     list-style: none;
     display: grid;
-    align-content: center;
+    align-content: start;
     gap: 3rem;
 }
 
@@ -260,6 +260,9 @@ aside {
         font-size: var(--fs-200);
     }
     .job p {
+        font-size: var(--fs-300);
+    }
+    .job ul {
         font-size: var(--fs-300);
     }
 }
